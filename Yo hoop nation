@@ -1,0 +1,12 @@
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
+
+]]--
+
+local v0=loadstring(game:HttpGet("https://sirius.menu/rayfield"))();local v1=v0:CreateWindow({Name="Hoop Nation",Icon=0,LoadingTitle="Hoop nation Gui bli",LoadingSubtitle="By zyn",Theme="Default",DisableRayfieldPrompts=false,DisableBuildWarnings=false,ConfigurationSaving={Enabled=true,FolderName=nil,FileName="Big Hub"},Discord={Enabled=false,Invite="noinvitelink",RememberJoins=true},KeySystem=false,KeySettings={Title="Untitled",Subtitle="Key System",Note="No method of obtaining the key is provided",FileName="Key",SaveKey=true,GrabKeyFromSite=false,Key={"Hello"}}});local v2=v1:CreateTab("Home",nil);local v3=v2:CreateSection("Everything in here");v0:Notify({Title="You In nigger",Content="Oi",Duration=6.5,Image=4483362458});local v4=v2:CreateButton({Name="Auto Green",Callback=function() while true do local v12={[1]=false,[2]= -0.9669738841056823,[3]=true};game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Shoot"):FireServer(unpack(v12));wait(0.1);end end});local v4=v2:CreateButton({Name="inf stamina",Callback=function() while true do local v13=game:GetService("Players").LocalPlayer;local v14=v13:WaitForChild("Values"):WaitForChild("Stamina");v14.Value=math.huge;wait(0.1);end end});local v4=v2:CreateButton({Name="Hitbox(CANT ADD SLIDERS CAUSE ITLL GET GLITCHY)",Callback=function() local v5=workspace:WaitForChild("Basketballs"):WaitForChild("Basketball");v5.Size=Vector3.new(5,5,5);v5.CanCollide=false;v5.CanTouch=true;v5.CanQuery=true;v5.Transparency=0.3;v5.Massless=true;end});
